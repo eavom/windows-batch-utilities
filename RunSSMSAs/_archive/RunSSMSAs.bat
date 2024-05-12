@@ -1,8 +1,7 @@
 @echo off
 
 setlocal EnableDelayedExpansion
-title [Run SSMS As]
-set domain=.
+set domain=mydomain
 
 :main
 	call :setconfiguration
@@ -33,7 +32,7 @@ goto :eof
 	set iUserName=%~1
 	set iPassword=%~2
 	
-	echo !iPassword! | runas /netonly /user:!domain!\!iUserName! "C:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Ssms.exe" 
+	echo !iPassword! | runas /netonly /user:!domain!\!iUserName! Ssms.exe
 	echo.
 	cls
 

@@ -2,7 +2,7 @@
 
 Simple loading baar with batchfile. Feel free to use the code in your batch file. Happy Coding!
 
-![Batchfile Loadingbar ~ the-mova](../resources/loadingbar/loadingbar-the-mova.jpg)
+![Batchfile Loadingbar ~ the-mova](../_resources/loadingbar/loadingbar-the-mova.jpg)
 
 ### Custom Configuration
 -----------------------------

@@ -7,3 +7,6 @@ With first login it saves your username in Environment Variable. Means moving fo
 ```
 RunSSMSAs.bat /clear
 ```
+
+## Snapshot
+![Run SSMS As ~ github.com/themova](../_resources/runssmsas/runssmaas-the-mova.jpg)
